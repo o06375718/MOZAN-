@@ -1,6 +1,9 @@
-V1=80
-V2=70
-distance_begin=490
-distance_end =150
-t= ((distance_begin-distance_end)/(V1+V2))*60
-print(t)
+a= int(input("Enter  number"))
+b= int(input("Enter number"))
+c= int(input("Enter number"))
+if b<a :
+    print(b)
+elif c<b:
+    print(c)
+elif a<c :
+    print(a)
