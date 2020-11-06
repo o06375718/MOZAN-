@@ -1,7 +1,8 @@
-a=2
-b=6
-c=-20
-d= (b**2)-(4*a*c)
-sol1=(-b+d**0.5)/(2*a)
-sol2=(-b-d**0.5)/(2*a)
-print("The solutions are {},{}".format(sol1,sol2))
+age= int(input("How old are you?"))
+ticket=3
+if age<6 and age>60:
+    print("Your ticket is free")
+elif  6<= age <= 18 :
+    print("Your ticket cost:",ticket/2)
+else  :
+    print("Your ticket cost:",3)
