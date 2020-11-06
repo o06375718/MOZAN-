@@ -1,3 +1,4 @@
-Celcius = input("Enter Celcius:")
-Fahreneit= int(Celcius) *1.8 +32
-print("Fahreneit:",Fahreneit)
+a=3
+b=4
+c=((a**2)+(b**2))**0.5
+print(c)
