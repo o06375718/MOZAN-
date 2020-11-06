@@ -7,3 +7,4 @@ elif c<b:
     print(c)
 elif a<c :
     print(a)
+print("Minimum number:",min(a,b,c))
