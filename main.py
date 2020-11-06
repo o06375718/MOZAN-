@@ -1,4 +1,6 @@
-edge1= int(input("a :"))
-edge2= int(input("b: "))
-h= (edge1**2+edge2**2)**0.5
-print("hypetenous :",h)
+V1=80
+V2=70
+distance_begin=490
+distance_end =150
+t= ((distance_begin-distance_end)/(V1+V2))*60
+print(t)
